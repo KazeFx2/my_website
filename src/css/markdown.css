@@ -1,0 +1,159 @@
+.v-md-textarea-editor,
+pre {
+  background-color: transparent;
+  color: unset;
+}
+
+textarea {
+  background-color: transparent;
+  color: unset !important;
+}
+
+.v-md-editor__editor-wrapper > .scrollbar > .scrollbar__wrap {
+  padding-right: 1px;
+  /* transform: translateX(-1px); */
+  border-left: 1px solid grey;
+}
+
+.v-md-editor__editor-wrapper > .scrollbar > .scrollbar__wrap::-webkit-scrollbar {
+  width: 0px;
+}
+
+.v-md-editor__editor-wrapper {
+  border-right: 1px solid grey !important;
+}
+
+.v-md-editor__right-area {
+  transform: translateX(-2px);
+  padding-left: 1px;
+}
+
+.v-md-editor__toolbar {
+  /* border-left: 1px solid gray !important; */
+  width: calc(100% + 2px);
+  /* transform: translateX(-1px); */
+}
+
+.v-md-editor__main {
+  width: calc(100% + 3px);
+}
+
+.v-md-editor__left-area-title {
+  border-right: 1px solid gray;
+}
+
+.v-md-editor__left-area-title::after {
+  border-bottom: 1px solid gray !important;
+}
+
+.v-md-pre-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.github-markdown-body h1,
+.github-markdown-body h2,
+h1,
+h2 {
+  border-bottom: 1px solid grey;
+}
+
+.v-md-editor__toolbar {
+  border-bottom: 1px solid gray !important;
+}
+
+.v-md-editor__toolbar-item {
+  color: unset !important;
+}
+
+.v-md-editor__toolbar-item--active {
+  background: rgba(128, 128, 128, 0.4) !important;
+}
+
+.v-md-editor__toolbar-item:hover {
+  background: rgba(128, 128, 128, 0.2);
+}
+
+.v-md-editor__menu {
+  background-color: gray;
+}
+
+.v-md-editor__menu-item {
+  color: unset;
+}
+
+.v-md-editor__menu-item:hover {
+  color: gray;
+}
+
+.v-md-editor__left-area-title,
+.v-md-editor__toc-nav-item {
+  color: unset !important;
+}
+
+.v-md-editor__left-area {
+  border-width: 0px !important;
+}
+
+.github-markdown-body code,
+.github-markdown-body tt {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.github-markdown-body table tr {
+  background-color: transparent;
+}
+
+.github-markdown-body table td,
+.github-markdown-body table th {
+  border: 1px solid gray;
+}
+
+.github-markdown-body blockquote {
+  border-left: 0.25em solid gray;
+}
+
+.v-md-editor__toolbar-item-fullscreen {
+  visibility: hidden;
+}
+
+.v-md-editor__todo-list-checkbox {
+  border-color: rgba(128, 128, 128, 0.5) !important;
+}
+
+.v-md-plugin-tip.tip {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.v-md-editor__toolbar-divider:before {
+  border-left: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.v-md-mermaid {
+  background-color: white !important;
+}
+
+.v-md-plugin-tip.warning {
+  color: #b29400;
+}
+
+.v-md-plugin-tip.danger {
+  color: #900;
+}
+
+.v-md-plugin-tip.details {
+  /* color: black; */
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.github-markdown-body table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+.github-markdown-body hr {
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.github-markdown-body img {
+  background-color: transparent;
+}
